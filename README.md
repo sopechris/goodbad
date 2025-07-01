@@ -1,4 +1,4 @@
-<img src="./logo1.png" alt="Logo1" width="600"/>
+<img src="./logo1.png" alt="Logo_vertical" width="500"/>
 
 the good and the bad, not ugly 
 
@@ -14,3 +14,4 @@ the good and the bad, not ugly
     </td>
   </tr>
 </table>
+
