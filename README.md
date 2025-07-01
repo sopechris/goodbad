@@ -1,4 +1,4 @@
-# goodbad
+<img src="./logo1.png" alt="Logo1" width="600"/>
 
 the good and the bad, not ugly 
 
