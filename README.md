@@ -46,10 +46,27 @@ Ethical AI shouldn't just reflect one worldview — it should help us understand
 
 Whether you're a student of ethics, a curious thinker, or someone who just wants to understand what "good" really means — you're welcome here.<br><br>
 
+
+
 <p align="center">
   <img src="./logos/logo2.png" alt="Logo" width="300"/>
 </p>
 
+<p align="right">
+<img alt="visitors" src="https://vbr.nathanchung.dev/badge?page_id=sopechris.sopechris&amp;color=d3d3d3">
+</p>
+
+<p align="center">
+<a href="https://www.linkedin.com/in/christiandorado" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="32" height="32"/>
+</a>
+<a href="mailto:your.email@gmail.com">
+    <img src="https://cdn.simpleicons.org/gmail/000000/ffffff" alt="Gmail" width="32" height="32"/>
+  </a>
+  <a href="https://instagram.com/yourusername" target="_blank">
+    <img src="https://cdn.simpleicons.org/instagram/000000/ffffff" alt="Instagram" width="32" height="32"/>
+  </a>
+</p>
 
 ---
 
