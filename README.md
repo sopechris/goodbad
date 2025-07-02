@@ -1,4 +1,4 @@
-# <img src="./logos/logo1.png" alt="Logo_vertical" width="500"/>
+# <img src="./logos/logo1.png" alt="Logo_vertical" width="500"/><sup>©</sup>
 <p align="center">
   <em><strong>the good and the bad, not ugly</strong></em>
 </p>
