@@ -37,13 +37,14 @@ Ever wondered what Buddhism, Stoicism, Christianity, or Jungian psychology might
 </table>
 
 <h2 align="center">Why This Matters</h2>
+
 Ethical AI shouldn't just reflect one worldview — it should help us understand **many**. By drawing from centuries of philosophy, religion, and psychology, this project aims to:
 
 - Create space for **comparative moral reasoning**
 - Ground responses in **transparent sources**
 - Offer a **thoughtful tool** for anyone navigating ethical decisions
 
-Whether you're a student of ethics, a curious thinker, or someone who just wants to understand what "good" really means — you're welcome here.
+Whether you're a student of ethics, a curious thinker, or someone who just wants to understand what "good" really means — you're welcome here.<br><br>
 
 <p align="center">
   <img src="./logos/logo2.png" alt="Logo" width="300"/>
