@@ -22,7 +22,7 @@ Ever wondered what Buddhism, Stoicism, Christianity, or Jungian psychology might
       <br>
       &nbsp;&nbsp;It draws from:<br><br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❁&nbsp;    Ancient and modern <b>philosophy</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Plato, Kant, Nietzsche...<br><br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❁&nbsp;   Foundational <b>religious texts</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; the Bible, Quran, Bhagavad Gita, Tao Te Ching...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❁&nbsp;   Foundational <b>religious texts</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; the Bible, Quran, Bhagavad Gita, Tao Te Ching...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<br><br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❁&nbsp;&nbsp;&nbsp;&nbsp;   Influential <b>psychological theories</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Freud, Jung, Haidt, and more
       <br><br>
     </td>
