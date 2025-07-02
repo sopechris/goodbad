@@ -1,4 +1,4 @@
-# <img src="./logo1.png" alt="Logo_vertical" width="500"/>
+# <img src="./logos/logo1.png" alt="Logo_vertical" width="500"/>
 
    
 *the good and the bad, not ugly*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ☯ ☦ ☩ ☸ ✡ ∞ ✝ ☥ ☪ ⚛  
@@ -14,7 +14,7 @@ An app that let's you review any situation, and asesses from different spiritual
       ❁&nbsp;   Just need to describe a scenario and this tool will do everything for you.
     </td>
     <td>
-      <img src="./logo.png" alt="Logo" width="400"/>
+      <img src="./logos/logo.png" alt="Logo" width="400"/>
     </td>
   </tr>
 </table>
