@@ -4,23 +4,23 @@
   <em><strong>the good and the bad, not ugly</strong></em>
 </p>
 
-<p align="center" style="font-size: 22px;">
-  ☯ ☦ ☩ ☸ ✡ ∞ ✝ ☥ ☪ ⚛
-</p>
-
 ---
 
 🧭 **An AI-powered moral compass** — this app lets you describe any situation, and it returns thoughtful responses based on a variety of ethical and spiritual worldviews.
 
 Ever wondered what Buddhism, Stoicism, Christianity, or Jungian psychology might say about a decision you're facing? Now you can compare these perspectives side by side — transparently and grounded in real texts.
 
+<p align="right" style="font-size: 22px;">
+  ☯ ☦ ☩ ☸ ✡ ∞ ✝ ☥ ☪ ⚛
+</p>
+
 ---
 
-<table style="border-collapse: collapse; border: none;">
+<table style="border-collapse: collapse; border: none; width: 100%;">
   <tr>
     <td style="border: none; padding-right: 50px;">
       ❁&nbsp;    Ancient and modern <b>philosophy</b> (Plato, Kant, Nietzsche...)<br><br>
-      ❁&nbsp;   Foundational <b>religious texts</b> (the Bible, Quran, Bhagavad Gita, Tao Te Ching..)<br><br>
+      ❁&nbsp;   Foundational <b>religious texts</b> (the Bible, Quran, Bhagavad Gita, Tao Te Ching..)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br><br>
       ❁&nbsp;   Influential <b>psychological theories</b> (Freud, Jung, Haidt, and more)
     </td>
     <td>
