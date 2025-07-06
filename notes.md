@@ -30,6 +30,7 @@ For psychology, I selected 15 foundational works representing the main schools o
 With the philosophy dataset cleaned and ready, I ran a first trial of a Retrieval-Augmented Generation model using only this data. This proof-of-concept demonstrated the viability of the approach before scaling to include religious and psychological texts.  
 
 First RAG with overall embeddings, not with per school tokenization. See if it works, if yes, continue with per school tokenization.
+    Seems to work, I also added in religion, and concluded religion needs to be further cleaned (not ready for use).
 
 ---
 
