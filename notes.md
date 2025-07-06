@@ -1,50 +1,39 @@
 # Progress Log: Building **goodbad**
 
-## 📌 Overview
-This document summarizes the key steps and decisions taken in the development of **goodbad**, a project aimed at exploring the concepts of good and evil across philosophy, religion, and psychology using NLP and Retrieval-Augmented Generation (RAG).
+## Overview  
+This document tracks the key steps and decisions in building **goodbad**, a project aiming to explore concepts of good and evil through philosophy, religion, and psychology using NLP and Retrieval-Augmented Generation (RAG).
 
 ---
 
-## 🔍 Phase 1: Philosophy Dataset
+## Phase 1: Philosophy Dataset
 
-- ✅ **Source**: A well-structured and cleaned dataset from Kaggle containing the **history of philosophy**.
-- ✅ **Status**: Ready-to-use — already **segmented, pruned, and cleaned**.
-- ✅ **Action Taken**: No preprocessing required. Ideal dataset to perform natural language processing and trial RAG models.
-- 💡 **Note**: This dataset served as the **initial playground** for model testing and pipeline validation.
+I started by searching for datasets and was fortunate to find a well-prepared philosophy dataset on Kaggle. It was already cleaned, segmented, and pruned — perfect for testing NLP techniques right away. This dataset became my initial playground to experiment with RAG and to validate the processing pipeline.
 
 ---
 
-## 🕊️ Phase 2: Religious Texts
+## Phase 2: Religious Texts
 
-- 🔍 **Discovery**: Found a **Kaggle dataset** with **34 major religious texts**.
-- ➕ **Added**: Included the **Quran** manually to complete the set.
-- 🧹 **Cleaning Strategy**:  
-  - Reused the **text processing pipeline** from the **philosophy dataset creator's GitHub repo**.
-  - Adapted the pipeline to fit the **unique structure** of religious texts.
+Next, I sought to replicate the same approach with religious texts. I found a comprehensive Kaggle dataset containing 34 major religious books and added the Quran to complete the collection. To clean these texts, I adapted the pipeline from the philosophy dataset creator’s GitHub.  
 
-- ⚠️ **Challenges**:
-  - **Vedas and Hindu texts** were especially difficult to clean:
-    - Contained **footnotes**, **Sanskrit phrases**, **bilingual commentary**, **reference numbers**, and **poetic hymn structures**.
-  - Required **manual inspection and pipeline adjustments**.
+However, some texts, especially the Vedas and Hindu scriptures, posed serious challenges. They contained complex elements like footnotes, Sanskrit verses alongside English commentary, and numerous reference markers. Cleaning these required careful manual inspection and multiple pipeline adjustments.
 
 ---
 
-## 🧠 Phase 3: Psychology Texts
+## Phase 3: Psychology Texts
 
-- 📚 **Selection**: Identified **15 foundational works** representing core psychological schools.
-- 🧲 **Source**: Downloaded from **Project Gutenberg** in `.txt` format.
-- 🧼 **Cleaning Plan**:
-  - Applied the **adapted cleaning pipeline** from earlier steps.
-  - Stored cleaned results in `.csv` format for further processing.
-  - Texts were relatively **easy to clean**, making this phase more straightforward.
+For psychology, I selected 15 foundational works representing the main schools of thought. I downloaded these one by one from Project Gutenberg in plain text format. These texts were generally easier to clean, so I applied the adapted pipeline and stored the results in CSV files for downstream processing.
 
 ---
 
-## 🚀 Trial Run: First RAG Prototype
+## Trial Run: First RAG Prototype
 
-- ✅ **Input**: Used only the **philosophy_data.csv**.
-- ⚙️ **Objective**: Test Retrieval-Augmented Generation (RAG) using a **single domain** to validate model behavior before scaling to religion and psychology.
-- 🔬 **Insight**: This trial served as the **proof-of-concept** for the goodbad architecture.
+With the philosophy dataset cleaned and ready, I ran a first trial of a Retrieval-Augmented Generation model using only this data. This proof-of-concept demonstrated the viability of the approach before scaling to include religious and psychological texts.  
+
+First RAG with overall embeddings, not with per school tokenization. See if it works, if yes, continue with per school tokenization.
+
+---
+
+## Trial Run: First Streamlit Prototype if possible
 
 ---
 
