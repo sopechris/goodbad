@@ -1,17 +1,14 @@
 # Progress Log: Building **goodbad**
 
-## Overview  
-This document tracks the key steps and decisions in building **goodbad**, a project aiming to explore concepts of good and evil through philosophy, religion, and psychology using NLP and Retrieval-Augmented Generation (RAG).
 
----
 
-## Phase 1: Philosophy Dataset
+### Philosophy Dataset
 
 I started by searching for datasets and was fortunate to find a well-prepared philosophy dataset on Kaggle. It was already cleaned, segmented, and pruned — perfect for testing NLP techniques right away. This dataset became my initial playground to experiment with RAG and to validate the processing pipeline.
 
 ---
 
-## Phase 2: Religious Texts
+### Religious Texts
 
 Next, I sought to replicate the same approach with religious texts. I found a comprehensive Kaggle dataset containing 34 major religious books and added the Quran to complete the collection. To clean these texts, I adapted the pipeline from the philosophy dataset creator’s GitHub.  
 
@@ -19,22 +16,24 @@ However, some texts, especially the Vedas and Hindu scriptures, posed serious ch
 
 ---
 
-## Phase 3: Psychology Texts
+### Psychology Texts
 
 For psychology, I selected 15 foundational works representing the main schools of thought. I downloaded these one by one from Project Gutenberg in plain text format. These texts were generally easier to clean, so I applied the adapted pipeline and stored the results in CSV files for downstream processing.
 
 ---
 
-## Trial Run: First RAG Prototype
+### Trial Run: First Prototype
 
-With the philosophy dataset cleaned and ready, I ran a first trial of a Retrieval-Augmented Generation model using only this data. This proof-of-concept demonstrated the viability of the approach before scaling to include religious and psychological texts.  
+With the philosophy dataset cleaned and ready, I ran a first trial. Mi idea was to first do an analysis to see how good the datasets were, and if they aligned with what I expected. Philosophy seems to get ideas straight, but concluded religion needs to be further cleaned (not ready for use), didn't try psychology. Did some further analysis in analysis.ipynb, and plotted the data using PCA and other techniques.
 
-First RAG with overall embeddings, not with per school tokenization. See if it works, if yes, continue with per school tokenization.
-    Seems to work, I also added in religion, and concluded religion needs to be further cleaned (not ready for use).
+First try of concept with overall embeddings, not with per school tokenization. See if it works, if yes, continue with per school tokenization.
+    Seems to work.
 
 ---
 
-## Trial Run: First Streamlit Prototype if possible
+### Trial Run: First Streamlit Prototype if possible
+
+Got the first streamlit prototype up and running (upgraded logo1.png for greater quality and did some designing). A bit slow when loading the page, but pretty fast afterwards.
 
 ---
 
