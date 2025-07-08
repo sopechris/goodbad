@@ -35,6 +35,26 @@ First try of concept with overall embeddings, not with per school tokenization. 
 
 Got the first streamlit prototype up and running (upgraded logo1.png for greater quality and did some designing). A bit slow when loading the page, but pretty fast afterwards.
 
+Did the sidebar, and tried a bunch of options but finally went for the checked list. In the future, I'd like to get dropdowns for religion and psychology, as well as philosophy.
+
+---
+
+Realized embeddings were not as good as expected with "all-MiniLM-L6-v2"; so decided to go for a better sentence transformer, one more designed towards qa and more sophisticated "intfloat/e5-large-v2", a huggingface model by intfloat (.npz files went from 400Mb to >1Gb). Got a lot better results. 
+
+Had to download the model, to do proper paralelization in the cluster. Parallelized over 50 nodes and got it in 1h. 
+
+---
+
+Work to get something with the PCA and UMAP projections etc.  
+Idea after cleaning religion and psychology texts is first, to get all the texts in my own repo or something (probably github).    
+Line redirect to text and specific line.  
+Work with RAG. Get a LLM to work:  
+
+- Toggle checked list on sideline to get an overall answer with the checked options  
+- Do a match between philo/religion/psycho to see how much they align
+
+
+
 ---
 
 ## 📁 Next Steps
