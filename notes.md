@@ -53,6 +53,7 @@ Work with RAG. Get a LLM to work:
 - Toggle checked list on sideline to get an overall answer with the checked options  
 - Do a match between philo/religion/psycho to see how much they align
 
+Prototype with Streamlit, then move to Django/Vercel
 
 
 ---
