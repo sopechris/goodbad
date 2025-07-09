@@ -45,7 +45,7 @@ Had to download the model, to do proper paralelization in the cluster. Paralleli
 
 ---
 
-Work to get something with the PCA and UMAP projections etc.  
+Work to get some useful relationship for the app with the PCA and UMAP projections etc. and correlations between religion vs philosophy. 
 Idea after cleaning religion and psychology texts is first, to get all the texts in my own repo or something (probably github).    
 Line redirect to text and specific line.  
 Work with RAG. Get a LLM to work:  
