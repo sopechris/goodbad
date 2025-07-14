@@ -14,6 +14,10 @@ Next, I sought to replicate the same approach with religious texts. I found a co
 
 However, some texts, especially the Vedas and Hindu scriptures, posed serious challenges. They contained complex elements like footnotes, Sanskrit verses alongside English commentary, and numerous reference markers. Cleaning these required careful manual inspection and multiple pipeline adjustments.
 
+Sentences with many capital letters and no philosophical meaning were some to be cleaned; for that we put a threshold on percentage of capital starting words and philosophical words. With that, many phrases were discarded.
+
+Ad-Hoc cleaning looking at things to remove (headers, notes, footnotes, chapter names...). Longest part, had to go over all texts one by one, left a couple untouched to see if fixed. Integrated it to philosophy cleaning pipeline. Bible and Quran already cleaned .csv, separate from pipeline and put after.
+
 ---
 
 ### Psychology Texts
