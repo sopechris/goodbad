@@ -16,7 +16,7 @@ However, some texts, especially the Vedas and Hindu scriptures, posed serious ch
 
 Sentences with many capital letters and no philosophical meaning were some to be cleaned; for that we put a threshold on percentage of capital starting words and philosophical words. With that, many phrases were discarded.
 
-Ad-Hoc cleaning looking at things to remove (headers, notes, footnotes, chapter names...). Longest part, had to go over all texts one by one, left a couple untouched to see if fixed. Integrated it to philosophy cleaning pipeline. Bible and Quran already cleaned .csv, separate from pipeline and put after.
+Ad-Hoc cleaning looking at things to remove (headers, notes, footnotes, chapter names...). Longest part, had to go over all texts one by one, left a couple untouched to see if fixed. Checked whether previos pipeline took care of them and for those who didn't integrated to philosophy cleaning pipeline. Bible and Quran already cleaned .csv, separate from pipeline and put after.
 
 ---
 
