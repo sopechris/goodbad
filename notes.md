@@ -18,6 +18,8 @@ Sentences with many capital letters and no philosophical meaning were some to be
 
 Ad-Hoc cleaning looking at things to remove (headers, notes, footnotes, chapter names...). Longest part, had to go over all texts one by one, left a couple untouched to see if fixed. Checked whether previos pipeline took care of them and for those who didn't integrated to philosophy cleaning pipeline. Bible and Quran already cleaned .csv, separate from pipeline and put after.
 
+Post cleaning ad hoc extra cleaning. After deeply checking .csv and spotting extra slipped noise, added new extra cleaning to the notebook and rerun to get final .csv. Extra cleaning of a couple phrases I had noted before in the first .csv check.
+
 ---
 
 ### Psychology Texts
@@ -33,7 +35,7 @@ Ad Hoc cleaning
 With the philosophy dataset cleaned and ready, I ran a first trial. Mi idea was to first do an analysis to see how good the datasets were, and if they aligned with what I expected. Philosophy seems to get ideas straight, but concluded religion needs to be further cleaned (not ready for use), didn't try psychology. Did some further analysis in analysis.ipynb, and plotted the data using PCA and other techniques.
 
 First try of concept with overall embeddings, not with per school tokenization. See if it works, if yes, continue with per school tokenization.
-    Seems to work.
+    Seems to work, but a bit slower
 
 ---
 
