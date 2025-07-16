@@ -65,6 +65,8 @@ Work with RAG. Get a LLM to work:
 
 Prototype with Streamlit, then move to Django/Vercel
 
+---
+
 ### Extra Ideas
 
 - Phrase of the day
