@@ -20,7 +20,9 @@ Ad-Hoc cleaning looking at things to remove (headers, notes, footnotes, chapter 
 
 Post cleaning ad hoc extra cleaning. After deeply checking .csv and spotting extra slipped noise, added new extra cleaning to the notebook and rerun to get final .csv. Extra cleaning of a couple phrases I had noted before in the first .csv check.
 
-Even with all this, still had to clean a bunch, I identified the problem that the religious texts usually have a ton of names and some sentences were lacking philosophy and were generating noise (something like: "Jesus said to Micah that he should call Mark"). So I sropped massively and filetered aggresively for these kinds of phrases to get the dropped_phrases.csv (columns:[sentence, school, reason]). Inserted this to Claude Sonnet 5 and let it modify the aggresive script to not filter core and useful phrases. Re-ran the previous .csv through the new filter and done.
+Even with all this, still had to clean a bunch, I identified the problem that the religious texts usually have a ton of names and some sentences were lacking philosophy and were generating noise (something like: "Jesus said to Micah that he should call Mark"). So I sropped massively and filetered aggresively for these kinds of phrases to get the dropped_phrases.csv (columns:[sentence, school, reason]). Inserted this to Claude Sonnet 5 and let it modify the aggresive script to not filter core and useful phrases. Re-ran the previous .csv through the new filter. Got 3 .csv files (dropped; "saved" from previous harsh cleaning, we called them kept; and cleaned dataset).
+
+Looking at the kept and dropped, some extra ad hoc handling for a couple mistakes (both in kept and dropped).
 
 ---
 
