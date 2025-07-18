@@ -75,6 +75,7 @@ Prototype with Streamlit, then move to Django/Vercel
 - Problem of the day
     - Comments and likes
 - Personality/philosophy test
+- Core topics compare, not out of the blue everything
 ---
 
 ## 📁 Next Steps
