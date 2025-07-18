@@ -16,13 +16,13 @@ However, some texts, especially the Vedas and Hindu scriptures, posed serious ch
 
 Sentences with many capital letters and no philosophical meaning were some to be cleaned; for that we put a threshold on percentage of capital starting words and philosophical words. With that, many phrases were discarded.
 
-Ad-Hoc cleaning looking at things to remove (headers, notes, footnotes, chapter names...). Longest part, had to go over all texts one by one, left a couple untouched to see if fixed. Checked whether previos pipeline took care of them and for those who didn't integrated to philosophy cleaning pipeline. Bible and Quran already cleaned .csv, separate from pipeline and put after.
+Ad-Hoc cleaning looking at things to remove (headers, notes, footnotes, chapter names...). Longest part, had to go over all texts one by one, left a couple untouched to see if fixed. Checked whether previos pipeline took care of them and for those who didn't integrated to philosophy cleaning pipeline. Bible and Quran already cleaned .csv, separate from pipeline and put after. Look religion_clean.ipynb (to use, in Google Collab).
 
 Post cleaning ad hoc extra cleaning. After deeply checking .csv and spotting extra slipped noise, added new extra cleaning to the notebook and rerun to get final .csv. Extra cleaning of a couple phrases I had noted before in the first .csv check.
 
 Even with all this, still had to clean a bunch, I identified the problem that the religious texts usually have a ton of names and some sentences were lacking philosophy and were generating noise (something like: "Jesus said to Micah that he should call Mark"). So I sropped massively and filetered aggresively for these kinds of phrases to get the dropped_phrases.csv (columns:[sentence, school, reason]). Inserted this to Claude Sonnet 5 and let it modify the aggresive script to not filter core and useful phrases. Re-ran the previous .csv through the new filter. Got 3 .csv files (dropped; "saved" from previous harsh cleaning, we called them kept; and cleaned dataset).
 
-Looking at the kept and dropped, some extra ad hoc handling for a couple mistakes (both in kept and dropped). Looked at duplicates and very similar quotes.
+Looking at the kept and dropped, some extra ad hoc handling for a couple mistakes (both in kept and dropped). Looked at duplicate quotes left behind using duplicate_finder.py.
 
 ---
 
