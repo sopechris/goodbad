@@ -69,6 +69,10 @@ Prototype with Streamlit, then move to Django/Vercel
 
 ---
 
+Did embeddings with philosophy and religion separately to compare themewise and religion vs religion or philosophy vs philosophy. After that also did general embeddings with both together to compare religion vs philosophy general correlation. 
+
+---
+
 ### Extra Ideas
 
 - Phrase of the day
