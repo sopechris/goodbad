@@ -28,15 +28,13 @@ Looking at the kept and dropped, some extra ad hoc handling for a couple mistake
 
 ### Psychology Texts
 
-For psychology, I selected 15 foundational works representing the main schools of thought. I downloaded these one by one from Project Gutenberg in plain text format. These texts were generally easier to clean, so I applied the adapted pipeline and stored the results in CSV files for downstream processing.
-
-Ad Hoc cleaning
+This is going to be an extra after we finish v1. The first idea is to get something religion and philosophy related, and after that, in v2, add that extra layer with psychology.
 
 ---
 
 ### Trial Run: First Prototype
 
-With the philosophy dataset cleaned and ready, I ran a first trial. My idea was to first do an analysis to see how good the datasets were, and if they aligned with what I expected. Philosophy seems to get ideas straight, but concluded religion needs to be further cleaned (not ready for use), didn't try psychology. Did some further analysis in analysis.ipynb, and plotted the data using PCA and other techniques.
+With the philosophy dataset cleaned and ready, I ran a first trial. My idea was to first do an analysis to see how good the datasets were, and if they aligned with what I expected. Philosophy seems to get ideas straight, but concluded religion needs to be further cleaned (not ready for use). Did some further analysis in analysis.ipynb, and plotted the data using PCA and other techniques.
 
 First try of concept with overall embeddings. Seems to work, but not best answers, a bit off context with "all-MiniLM-L6-v2".
 
@@ -46,7 +44,7 @@ First try of concept with overall embeddings. Seems to work, but not best answer
 
 Got the first streamlit prototype up and running (upgraded logo1.png for greater quality and did some designing). A bit slow when loading the page, but pretty fast afterwards.
 
-Did the sidebar, and tried a bunch of options but finally went for the checked list. In the future, I'd like to get dropdowns for religion and psychology, as well as philosophy.
+Did the sidebar, and tried a bunch of options but finally went for the checked list. In the future, I'd like to get dropdowns for religion as well as philosophy.
 
 ---
 
@@ -58,12 +56,12 @@ Got a lot better results for philosophy. Tried the same model with religion, sam
 ---
 
 Work to get some useful relationship for the app with the PCA and UMAP projections etc. and correlations between religion vs philosophy. 
-Idea after cleaning religion and psychology texts is first, to get all the texts in my own repo or something (probably github).    
+Idea after cleaning religion texts is first, to get all the texts in my own repo or something (probably github).    
 Line redirect to text and specific line.  
 Work with RAG. Get a LLM to work:  
 
 - Toggle checked list on sideline to get an overall answer with the checked options  
-- Do a match between philo/religion/psycho to see how much they align
+- Do a match between philo/religion to see how much they align
 
 Prototype with Streamlit, then move to Django/Vercel
 
@@ -84,8 +82,6 @@ Did embeddings with philosophy and religion separately to compare themewise and 
 
 ## 📁 Next Steps
 
-- Finalize cleaning of religious and psychology datasets.
-- Merge all sources into a unified knowledge base.
 - Develop a scalable and efficient RAG pipeline.
-- Begin prototyping the app to present **multiple moral perspectives** on a given question.
+- Design the app to present **multiple moral perspectives** on a given question.
 """
