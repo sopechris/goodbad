@@ -12,7 +12,7 @@ I started by searching for datasets and was fortunate to find a well-prepared ph
 
 Next, I sought to replicate the same approach with religious texts. I found a comprehensive Kaggle dataset containing 34 major religious books and added the Quran to complete the collection. To clean these texts, I adapted the pipeline from the philosophy dataset creator’s GitHub.  
 
-However, some texts, especially the Vedas and Hindu scriptures, posed serious challenges. They contained complex elements like footnotes, Sanskrit verses alongside English commentary, and numerous reference markers. Cleaning these required careful manual inspection and multiple pipeline adjustments. Looked for information, discarded a bunch of books not that much in our scope (regarding occultism, zoroastrianism...); and added a bunch from important philosophies (confucianism, tao, sikhism, tanakh).
+However, some texts, especially the Vedas and Hindu scriptures, posed serious challenges. They contained complex elements like footnotes, Sanskrit verses alongside English commentary, and numerous reference markers. Cleaning these required careful manual inspection and multiple pipeline adjustments. Looked for information, discarded a bunch of books not that much in our scope (regarding occultism, zoroastrianism...); and added a bunch from important religions (confucianism, tao, sikhism, tanakh).
 
 Sentences with many capital letters and no philosophical meaning were some to be cleaned; for that we put a threshold on percentage of capital starting words and philosophical words. With that, many phrases were discarded.
 
