@@ -50,11 +50,10 @@ Did the sidebar, and tried a bunch of options but finally went for the checked l
 
 ---
 
-Realized embeddings were not as good as expected with "all-MiniLM-L6-v2"; so decided to go for a better sentence transformer, one more designed towards qa and more sophisticated "intfloat/e5-large-v2", a huggingface model by intfloat (.npz files went from 400Mb to >1Gb). Got a lot better results for philosophy. 
+Realized embeddings were not as good as expected with "all-MiniLM-L6-v2"; so decided to go for a better sentence transformer, one more designed towards qa and more sophisticated "intfloat/e5-large-v2", a huggingface model by intfloat (.npz files went from 400Mb to >1Gb). Had to download the model, to do proper paralelization in the cluster. Parallelized over 50 nodes and got it in 1h. 
 
-Had to download the model, to do proper paralelization in the cluster. Parallelized over 50 nodes and got it in 1h. 
 
-Tried the same model with religion, same steps, and didn't get very good results. The way religious texts are presented, too lyrical, many metaphors and not too many straight answers. Need to reconsider everything.
+Got a lot better results for philosophy. Tried the same model with religion, same steps, and didn't get very good results. The way religious texts are presented, too lyrical, many metaphors and not too many straight answers. Need to reconsider everything.
 
 ---
 
