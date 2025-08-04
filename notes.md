@@ -67,7 +67,7 @@ Prototype with Streamlit, then move to Django/Vercel
 
 ---
 
-Did embeddings with philosophy and religion separately to compare themewise and religion vs religion or philosophy vs philosophy. After that also did general embeddings with both together to compare religion vs philosophy general correlation. Built a data gatherer function for analysis on a pickle file (deep_mpi_analysis.py) and ran it on the HPC, 80 nodes took 1.5h. Got the pickle file (deep_analysis_results.pkl) and ran it to get plots on analysis_results.ipynb, check everything there.
+Did embeddings with philosophy and religion separately to compare themewise and religion vs religion or philosophy vs philosophy. After that also did general embeddings with both together to compare religion vs philosophy general correlation. Built a data gatherer function for analysis on a pickle file (deep_mpi_analysis.py) and ran it on the HPC, 80 nodes took 1.5h. Got the pickle file (deep_analysis_results.pkl) and ran it to get plots on analysis_results.ipynb, check everything there. Seems like the metaphorical way religious books are written gets in the way.
 
 ---
 
