@@ -62,10 +62,10 @@ Whether you're a student of ethics, a curious thinker, or someone who just wants
 <a href="https://www.linkedin.com/in/christiandorado" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="32" height="32"/>
 </a>
-<a href="mailto:your.email@gmail.com">
+<a href="mailto:cdoradocerrato@gmail.com">
     <img src="https://cdn.simpleicons.org/gmail/000000/ffffff" alt="Gmail" width="32" height="32"/>
   </a>
-  <a href="https://instagram.com/yourusername" target="_blank">
+  <a href="https://instagram.com/christian.dorado_" target="_blank">
     <img src="https://cdn.simpleicons.org/instagram/000000/ffffff" alt="Instagram" width="32" height="32"/>
   </a>
 </p>
